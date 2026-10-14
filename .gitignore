@@ -1,0 +1,32 @@
+# Per-user configuration (never commit)
+config.local.json
+config.local.*
+*.local.json
+.env
+.env.*
+!.env.example
+# Credentials and browser state
+*cookie*
+*.pem
+*.key
+# Source material and generated private content
+work/
+outputs/
+transcripts/
+logs/
+*.log
+*.mp3
+*.mp4
+*.m4a
+*.wav
+*.srt
+*.vtt
+# Environments, models and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+models/
+.cache/
+.DS_Store
+Thumbs.db
