@@ -26,6 +26,33 @@ applications, and a clear next step. Optionally file them by topic in **your own
 
 **Source → read/transcribe → extract knowledge → apply → plan → optional image → optional Notion filing**
 
+## See the results
+
+These cards were generated while processing real, publicly accessible sources.
+They show how source ideas become everyday applications and concrete next steps.
+The AI-generated examples below are in Chinese; request another output language during setup or invocation.
+Hypothetical examples and practice plans were designed by the assistant and are labeled on the cards.
+
+### Xiaohongshu video → Language-learning card
+
+From [高高Lindsey's English-learning video](https://xhslink.com/o/J2purtccVT):
+three practice actions—discuss deeper topics, retell, and analyze expressions—paired with a hypothetical
+scenario and a 15-minute daily routine. Filed under Learning & growth.
+
+<img src="assets/examples/english-active-learning.png" alt="Chinese language-learning card showing deeper conversations, retelling, expression analysis, and a 15-minute practice routine" width="560">
+
+### Xiaoyuzhou podcast → Personal-finance card
+
+From [the 姜Dora × 大卫翁 podcast](https://www.xiaoyuzhoufm.com/episode/6a0a862f1b7bd5029558b570):
+three personal-finance views—assets and liabilities, income and expenses, and cash flow—with a hypothetical
+cash-shortfall example and a 15-minute review checklist. Filed under Economics & finance.
+
+<img src="assets/examples/personal-finance.png" alt="Chinese personal-finance card showing three financial views, a hypothetical cash shortfall, and an action checklist" width="560">
+
+These are knowledge-card examples, not screenshots of a private Notion workspace.
+The full workflow also keeps editable notes, source information, and action checklists.
+With Notion configured, images and text can be filed together in each user's own knowledge base.
+
 ## Quick start
 
 ### 1. Install
@@ -172,6 +199,7 @@ collect-to-knowledge/
 ├── README.en.md
 ├── config.example.json
 ├── agents/openai.yaml
+├── assets/examples/           # Knowledge-card images displayed in the READMEs
 ├── references/
 │   ├── setup.md
 │   ├── notion.md

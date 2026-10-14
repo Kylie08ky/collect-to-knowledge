@@ -26,6 +26,28 @@
 
 **链接 / 文件 → 读取或转录 → 提炼知识 → 生活应用 → 执行方案 → 图片卡片（可选）→ Notion 分类归档（可选）**
 
+## 效果展示
+
+以下两张卡片是实际处理公开内容时生成的成品，展示如何把来源观点转成生活应用和可执行步骤。
+图片为 AI 生成的中文示例；也可在配置或调用时指定其他输出语言。案例和练习方案由助手设计，已在图内标注。
+
+### 小红书视频 → 英语学习卡片
+
+从[高高Lindsey的英语学习视频](https://xhslink.com/o/J2purtccVT)提炼出“深聊、复述、拆解”三个练习动作，
+配上假设场景和每天 15 分钟的执行方案，归入「成长学习」。
+
+<img src="assets/examples/english-active-learning.png" alt="英语主动学习知识卡片：深聊、复述、拆解，以及每天15分钟的练习方案" width="560">
+
+### 小宇宙播客 → 个人财务卡片
+
+从[姜Dora × 大卫翁的播客](https://www.xiaoyuzhoufm.com/episode/6a0a862f1b7bd5029558b570)中提炼“个人财务三张表”，
+配上现金缺口的假设案例和 15 分钟盘点清单，归入「经济理财」。
+
+<img src="assets/examples/personal-finance.png" alt="个人财务三张表知识卡片：资产负债表、收入支出表、现金流表与行动清单" width="560">
+
+这些是知识卡片示例，不是 Notion 私人页面截图。完整工作流还会保留文字版、来源说明和行动清单；
+配置 Notion 后，可将图片与文字一起归档到用户自己的知识库。
+
 ## 快速开始
 
 ### 1. 安装 Skill
@@ -162,6 +184,7 @@ collect-to-knowledge/
 ├── README.en.md
 ├── config.example.json
 ├── agents/openai.yaml
+├── assets/examples/           # README 中展示的知识卡片图片
 ├── references/
 │   ├── setup.md
 │   ├── notion.md
